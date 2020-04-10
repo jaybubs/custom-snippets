@@ -1,0 +1,78 @@
+priority -50	
+snippet brk "braket" w
+\braket{${1:${VISUAL}}}{${2}}
+endsnippet
+
+snippet int "integral with limits" w
+\int_{${1:${VISUAL}}}^{${2}}
+endsnippet
+
+snippet infint "integral with infinite limits" w
+\int_{-\infty}^{\infty}
+endsnippet
+
+snippet nn "no number in align env must be before \\" w
+\nonumber
+endsnippet
+
+snippet 1/2 "converts to frac" w
+\frac{1}{2}
+endsnippet
+
+snippet // "generic fraction" w
+\frac{${1:${VISUAL}}}{${2}}
+endsnippet
+
+snippet pd "partial" i
+\partial
+endsnippet
+
+snippet mc "calligraphic" w
+\mathcal{${1:${VISUAL}}}
+endsnippet
+
+snippet ~ "fourier transformed" i
+\tilde{${1:${VISUAL}}}
+endsnippet
+
+snippet dot "time derivative" w
+\dot{${1:${VISUAL}}}
+endsnippet
+
+snippet * "dot product" w
+\cdot{${1:${VISUAL}}}
+endsnippet
+
+snippet inf "infinity" w
+\infty
+endsnippet
+
+snippet ^^ "superscript with brackets" iA
+^{${1:${VISUAL}}}
+endsnippet
+
+snippet __ "subscript with brackets" iA
+_{${1:${VISUAL}}}
+endsnippet
+
+snippet < "bra" i
+\bra{${1:${VISUAL}}}
+endsnippet
+
+snippet > "ket" i
+\ket{${1:${VISUAL}}}
+endsnippet
+
+snippet nab "nabla shorthand" i
+\nabla
+endsnippet
+
+snippet verb "verbatim environment" i
+\begin{verbatim}
+	${1:${VISUAL}}
+\end{verbatim}
+endsnippet
+
+snippet deg "degree circle" i
+$^{\circ}$
+endsnippet
